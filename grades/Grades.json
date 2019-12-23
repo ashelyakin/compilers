@@ -1,0 +1,422 @@
+{
+  "GradeService": {
+      "url": "http://grade.sfedu.ru/",
+      "token": "39se9832fh3e78fl23ois33mhfdff34gbuj34896"
+  },
+  "Discipline": {
+      "Subject": "Разработка компиляторов",
+      "Semester": 11
+  },
+  "Service": "github",
+  "Projects": [  
+      { "namespace": "TestSimpleLexer",
+        "tests": {
+        "TestId": {
+            "grade": 0,
+            "subModuleNumber": 2,
+        },
+        
+        "TestOps": { 
+            "grade": 0.5,
+            "subModuleNumber": 2,
+        },
+        "TestKeywords":  { 
+            "grade": 0.5,
+            "subModuleNumber": 2,
+        },
+        "TestOpsFail": { 
+            "grade": 1,
+            "subModuleNumber": 2,
+        },
+        
+        "TestAssigns": { 
+            "grade": 2,
+            "subModuleNumber": 2,
+        },
+        
+        "TestComparisons": { 
+            "grade": 1,
+            "subModuleNumber": 2,
+        },
+        
+        "TestComparisonsAndOps": { 
+            "grade": 1,
+            "subModuleNumber": 3,
+        },
+        
+        "TestComment": { 
+            "grade": 1,
+            "subModuleNumber": 3,
+        },
+        "TestCommentFileEnd": { 
+            "grade": 0.5,
+            "subModuleNumber": 3,
+        },
+        
+        "TestCommentNextLine": { 
+            "grade": 0.5,
+            "subModuleNumber": 3,
+        },
+        
+        "TestMultLineComment": { 
+            "grade": 0.5,
+            "subModuleNumber": 3,
+        },
+        "TestCommentFileEnd": { 
+            "grade": 0.5,
+            "subModuleNumber": 3,
+        },
+        "TestCommentNextLine": { 
+            "grade": 0.5,
+            "subModuleNumber": 3,
+        },
+        "TestCommentNotClosed": { 
+            "grade": 0.5,
+            "subModuleNumber": 3,
+        }
+      }
+      },
+      { "namespace": "TestLexer",
+         "tests": {
+           "TestIntParse": { 
+                "grade": 0.2,
+                "subModuleNumber": 0,
+            },
+           "TestIntFailDot": { 
+                "grade": 0.2,
+                "subModuleNumber": 0,
+            },
+           "TestIntFailSymbol": { 
+                "grade": 0.2,
+                "subModuleNumber": 0,
+            },
+           "TestIntFailEpty": { 
+                "grade": 0.2,
+                "subModuleNumber": 0,
+            },
+           "TestIntCollectNumber": { 
+                "grade": 0.2,
+                "subModuleNumber": 0,
+            },
+           
+           "TestIdParse": { 
+                "grade": 0.1,
+                "subModuleNumber": 0,
+            },
+           "TestIdEmpty": { 
+                "grade": 0.15,
+                "subModuleNumber": 0,
+            },
+           "TestIdCaps": { 
+                "grade": 0.15,
+                "subModuleNumber": 0,
+            },
+           "TestIdNumbers": { 
+                "grade": 0.15,
+                "subModuleNumber": 0,
+            },
+           "TestIdUnderscore" : { 
+                "grade": 0.15,
+                "subModuleNumber": 0,
+            },
+           "TestIdDot": { 
+                "grade": 0.15,
+                "subModuleNumber": 0,
+            },
+           "TestIdDollar": { 
+                "grade": 0.15,
+                "subModuleNumber": 0,
+            },
+           
+           "TestIntNotZeroParse": { 
+                "grade": 0.33,
+                "subModuleNumber": 0,
+            },
+           "TestIntNotZeroFail": { 
+                "grade": 0.33,
+                "subModuleNumber": 0,
+            },
+           "TestIntNotZeroPass": { 
+                "grade": 0.34,
+                "subModuleNumber": 0,
+            },
+           
+           "TestLetterDigitParse": { 
+                "grade": 0.5,
+                "subModuleNumber": 0,
+            },
+           "TestLetterDigitFail": { 
+                "grade": 0.5,
+                "subModuleNumber": 0,
+            },
+           
+           "TestLetterListParse": { 
+                "grade": 0.5,
+                "subModuleNumber": 0,
+            },
+           "TestLetterListFail": { 
+                "grade": 0.5,
+                "subModuleNumber": 0,
+            },
+           
+           "TestDigitListParse":  { 
+                "grade": 0.5,
+                "subModuleNumber": 1,
+            },
+           "TestDigitListFail": { 
+                "grade": 0.5,
+                "subModuleNumber": 1,
+            },
+           
+           "TestLetterDigitGroupParse": { 
+                "grade": 0.5,
+                "subModuleNumber": 1,
+            },
+           "TestLetterDigitGroupFail": { 
+                "grade": 0.5,
+                "subModuleNumber": 1,
+            },
+           
+           "TestDoubleParse": { 
+                "grade": 0.5,
+                "subModuleNumber": 1,
+            },
+           "TestDoubleFail": { 
+                "grade": 0.5,
+                "subModuleNumber": 1,
+            },
+           
+           "TestQuotedStringParse": { 
+                "grade": 0.5,
+                "subModuleNumber": 1,
+            },
+           "TestQuotedStringFail": { 
+                "grade": 0.5,
+                "subModuleNumber": 1,
+            },
+           
+           "TestCommentParse": { 
+                "grade": 0.5,
+                "subModuleNumber": 1,
+            },
+           "TestCommentFail": { 
+                "grade": 0.5,
+                "subModuleNumber": 1,
+            },
+           
+           "TestIdChainParse": { 
+                "grade": 0,
+                "subModuleNumber": 1,
+            },
+           "TestIdChainFail": { 
+                "grade": 0,
+                "subModuleNumber": 1,
+            },
+         }
+      },
+      { "namespace": "TestGeneratedLexer",
+        "tests": {
+           "TestIdCount":  { 
+                "grade": 1.5,
+                "subModuleNumber": 4,
+            },
+           "TestIdInfo": { 
+                "grade": 2,
+                "subModuleNumber": 4,
+            },
+           
+           "TestNumbers": { 
+                "grade": 1.5,
+                "subModuleNumber": 4,
+            },
+           
+           "TestString":  { 
+                "grade": 1,
+                "subModuleNumber": 5,
+            },
+           "TestSingleLineCmt": { 
+                "grade": 1,
+                "subModuleNumber": 5,
+            },
+           
+           "TestMultiLineCmt": { 
+                "grade": 1,
+                "subModuleNumber": 5,
+            },
+           "TestMultiLineCmtIds": { 
+                "grade": 2,
+                "subModuleNumber": 5,
+            }
+        }
+      },
+      { "namespace": "TestGeneratedParser",
+        "tests": {
+           "TestWhile":  { 
+                "grade": 2,
+                "subModuleNumber": 8,
+            },
+           "TestRepeat":  { 
+                "grade": 2,
+                "subModuleNumber": 8,
+            },
+           "TestFor":  { 
+                "grade": 2,
+                "subModuleNumber": 8,
+            },
+           "TestWrite":  { 
+                "grade": 2,
+                "subModuleNumber": 8,
+            },
+           "TestIf":   { 
+                "grade": 2,
+                "subModuleNumber": 9,
+            },
+           "TestVar":   { 
+                "grade": 3,
+                "subModuleNumber": 9,
+            },
+           "TestExr":   { 
+                "grade": 3,
+                "subModuleNumber": 9,
+            }
+        }
+      },
+      { "namespace": "TestDescentParser",
+        "tests": {
+           "TestWhile": { 
+                "grade": 3,
+                "subModuleNumber": 6,
+            },
+           "TestFor": { 
+                "grade": 4,
+                "subModuleNumber": 6,
+            },
+           "TestIf": { 
+                "grade": 3,
+                "subModuleNumber": 7,
+            },
+           "TestExpr": { 
+                "grade": 4,
+                "subModuleNumber": 7,
+            }
+        }
+      },
+      { "namespace": "TestASTParser",
+        "tests": {
+           "TestWhile":  { 
+                "grade": 2,
+                "subModuleNumber": 10,
+            },
+           "TestRepeat": { 
+                "grade": 2,
+                "subModuleNumber": 10,
+            },
+           "TestFor": { 
+                "grade": 2,
+                "subModuleNumber": 10,
+            },
+           "TestWrite": { 
+                "grade": 2,
+                "subModuleNumber": 10,
+            },
+           "TestIf": { 
+                "grade": 2,
+                "subModuleNumber": 11,
+            },
+           "TestVarDef": { 
+                "grade": 3,
+                "subModuleNumber": 11,
+            },
+           "TestBinary": { 
+                "grade": 3,
+                "subModuleNumber": 11,
+            }
+        }
+      },
+      { "namespace": "TestCodeGenerator",
+        "tests": {
+           "SmokeTest":  { 
+                "grade": 0,
+                "subModuleNumber": 13,
+            },
+           "TestOutput": { 
+                "grade": 0,
+                "subModuleNumber": 13,
+            },
+           "TestIntDivMod": { 
+                "grade": 7,
+                "subModuleNumber": 13,
+            },
+           "TestIf": { 
+                "grade": 3,
+                "subModuleNumber": 14,
+            },
+           "TestWhile": { 
+                "grade": 3,
+                "subModuleNumber": 14,
+            },
+           "TestUntil": { 
+                "grade": 2,
+                "subModuleNumber": 14,
+            },
+        }
+      },
+      { "namespace": "TestVisitors",
+        "tests": {
+           "NoLoopTest":  { 
+                "grade": 0.5,
+                "subModuleNumber": 12,
+            },
+           "ThreeLoopsTest": { 
+                "grade": 0.5,
+                "subModuleNumber": 12,
+            },
+           
+           "OneVarTest": { 
+                "grade": 0.5,
+                "subModuleNumber": 12,
+            },
+           "ManyVarTest": { 
+                "grade": 0.5,
+                "subModuleNumber": 12,
+            },
+           
+           "AssignTest": { 
+                "grade": 0.33,
+                "subModuleNumber": 12,
+            },
+           "CycleTest": { 
+                "grade": 0.33,
+                "subModuleNumber": 12,
+            },
+           "WriteTest": { 
+                "grade": 0.34,
+                "subModuleNumber": 12,
+            },
+           
+           "OneLoopTest": { 
+                "grade": 0.33,
+                "subModuleNumber": 12,
+            },
+           "ThreeLoopsTest1": { 
+                "grade": 0.33,
+                "subModuleNumber": 12,
+            },
+           "LoopTreeTest": { 
+                "grade": 0.34,
+                "subModuleNumber": 12,
+            },
+           
+           "SimpleTest":  { 
+                "grade": 1,
+                "subModuleNumber": 12,
+            },
+           
+           "FirstTest":  { 
+                "grade": 3,
+                "subModuleNumber": 12,
+            },
+        }
+      }
+    ]
+}
